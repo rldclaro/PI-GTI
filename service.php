@@ -90,19 +90,19 @@
                     <div class="nav w-100 nav-pills me-4">
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
                             <i class="fa fa-car-side fa-2x me-3"></i>
-                            <h4 class="m-0">Diagnostic Test</h4>
+                            <h4 class="m-0">Diagnostico Teste</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
                             <i class="fa fa-car fa-2x me-3"></i>
-                            <h4 class="m-0">Engine Servicing</h4>
+                            <h4 class="m-0">Serviços Mecânicos</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
                             <i class="fa fa-cog fa-2x me-3"></i>
-                            <h4 class="m-0">Tires Replacement</h4>
+                            <h4 class="m-0">Substituição de Pneus</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
                             <i class="fa fa-oil-can fa-2x me-3"></i>
-                            <h4 class="m-0">Oil Changing</h4>
+                            <h4 class="m-0">Troca de Óleo</h4>
                         </button>
                     </div>
                 </div>
@@ -117,11 +117,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <h3 class="mb-3">4 Anos de Experiência</h3>
+                                    <p class="mb-4">Embora ainda novos no mercado </p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Qualidade nos Serviços</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Trabalhadores Experientes</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Equipamentos Modernos</p>
                                     <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -135,11 +135,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <h3 class="mb-3">4 Anos de Experiência</h3>
+                                    <p class="mb-4">Embora ainda novos no mercado </p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Qualidade nos Serviços</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Trabalhadores Experientes</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Equipamentos Modernos</p>
                                     <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -153,11 +153,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <h3 class="mb-3">4 Anos de Experiência</h3>
+                                    <p class="mb-4">Embora ainda novos no mercado </p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Qualidade nos Serviços</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Trabalhadores Experientes</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Equipamentos Modernos</p>
                                     <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
@@ -171,11 +171,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <h3 class="mb-3">4 Anos de Experiência</h3>
+                                    <p class="mb-4">Embora ainda novos no mercado </p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Qualidade nos Serviços</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Trabalhadores Experientes</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Equipamentos Modernos</p>
                                     <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                             </div>
