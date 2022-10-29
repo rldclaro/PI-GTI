@@ -13,8 +13,8 @@ $dtNascimento      = $_REQUEST['txtData'];
 $EmailPessoaFisica = $_REQUEST['txtEmail'];
 $senha = sha1($_REQUEST['txtSenha']);
 $dtNascimento = implode("-", array_reverse(explode("/", $dtNascimento)));
-$String = "insert into pessoa (cod_Pessoa, cpf_Pessoa, nome_Pessoa, telefone, RG, data_nascimento, email, senha, id_pf_pj)
-                values (NULL, '" . $CPF . "', '" . $NomePessoa . "', '" . $TelPessoa . "', '" . $RG . "', '$dtNascimento', '" . $EmailPessoaFisica . "', '" . $senha . "', 1 )";
+$String = "insert into pessoa (cod_Pessoa, cpf_Pessoa, nome_Pessoa, telefone, RG, dtNasc_Pessoa, email, senha)
+                values (NULL, '" . $CPF . "', '" . $NomePessoa . "', '" . $TelPessoa . "', '" . $RG . "', '$dtNascimento', '" . $EmailPessoaFisica . "', '" . $senha . "')";
 
 $result = mysqli_query($conexao, $String);
 

@@ -1,75 +1,261 @@
-.form-signin
-{
-    max-width: 330px;
-    padding: 15px;
-    margin: 0 auto;
+/*---------------------------------------------*/
+input {
+	outline: none;
+	border: none;
 }
-.form-signin .form-signin-heading, .form-signin .checkbox
-{
-    margin-bottom: 10px;
+
+textarea {
+  outline: none;
+  border: none;
 }
-.form-signin .checkbox
-{
-    font-weight: normal;
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
 }
-.form-signin .form-control
-{
-    position: relative;
-    font-size: 16px;
-    height: auto;
-    padding: 10px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder { color: rgb(0, 0, 0);}
+input:-moz-placeholder { color: rgb(0, 0, 0);}
+input::-moz-placeholder { color: rgb(0, 0, 0);}
+input:-ms-input-placeholder { color: rgb(0, 0, 0);}
+
+textarea::-webkit-input-placeholder { color: rgb(0, 0, 0);}
+textarea:-moz-placeholder { color: rgb(0, 0, 0);}
+textarea::-moz-placeholder { color:  rgb(0, 0, 0);}
+textarea:-ms-input-placeholder { color: rgb(0, 0, 0);}
+
+label {
+  margin: 0;
+  display: block;
 }
-.form-signin .form-control:focus
-{
-    z-index: 2;
+
+/*---------------------------------------------*/
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
 }
-.form-signin input[type="text"]
-{
-    margin-bottom: -1px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+
+button:hover {
+	cursor: pointer;
 }
-.form-signin input[type="password"]
-{
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+
+iframe {
+	border: none !important;
 }
-.account-wall
-{
-    margin-top: 20px;
-    padding: 40px 0px 20px 0px;
-    background-color: #000000;
-    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+.txt1 {
+  font-family: Verdana;
+  font-size: 13px;
+  color: #ffffff;
+  line-height: 1.5;
 }
-.login-title
-{
-    color: #555;
-    font-size: 18px;
-    font-weight: 400;
-    display: block;
+
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+
+.container-login100 {
+  width: 100%;  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+   
 }
-.profile-img
-{
-    width: 96px;
-    height: 96px;
-    margin: 0 auto 10px;
-    display: block;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+
+.container-login100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  
 }
-.need-help
-{
-    margin-top: 10px;
+
+.wrap-login100 {
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px 55px 37px 55px;
+
+  background: #ffffff;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.582), #ffffffa6);
+  background: -o-linear-gradient(top, #ffffff93, #c5c9f000);
+  background: -moz-linear-gradient(top, #c4c5d300, #ffffff00);
+  background: linear-gradient(top, #2d347c00, #080b6400);
 }
-.new-account
-{
-    display: block;
-    margin-top: 10px;
+
+
+/*------------------------------------------------------------------
+[ Form ]*/
+.login100-form {
+  width: 100%;
 }
+
+.login100-form-logo {
+  font-size: 60px; 
+  color: #000000ad;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  
+  margin: 0 auto;
+}
+
+.login100-form-title {
+  font-family: Verdana;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+
+  display: block;
+}
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+
+.input100 {
+  font-family: Verdana;
+  font-size: 16px;
+  
+  line-height: 1.2;
+  
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px 0 38px;
+}
+
+/*---------------------------------------------*/ 
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.focus-input100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.focus-input100::after {
+  font-family: Material-Design-Iconic-Font;
+  font-size: 22px;
+
+  content: attr(data-placeholder);
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  padding-left: 5px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input100:focus {
+  padding-left: 5px;
+}
+
+.input100:focus + .focus-input100::after {
+  top: -22px;
+  font-size: 18px;
+}
+
+.input100:focus + .focus-input100::before {
+  width: 100%;
+}
+
+.has-val.input100 + .focus-input100::after {
+  top: -22px;
+  font-size: 18px;
+}
+
+.has-val.input100 + .focus-input100::before {
+  width: 100%;
+}
+
+.has-val.input100 {
+  padding-left: 5px;
+}
+
+
+
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+  .wrap-login100 {
+    padding: 55px 15px 37px 15px;
+  }
+}
+
+
+
+
+
+
