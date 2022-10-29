@@ -21,6 +21,6 @@
             </div>
             <a href="contact.php" class="nav-item nav-link">Contatos</a>
         </div>
-        <a href="Decision.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Cadastrar-se / Logar<i class="fa fa-arrow-right ms-3"></i></a>
+        <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Fazer Orçamento<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
 </nav>
