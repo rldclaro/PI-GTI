@@ -2,7 +2,7 @@
     //Instancia do Banco de dados
     require_once "MySQL/ConfigSession.php";
     require_once "MySQL/conexao.php";
-    require_once "include/funcao/functions.php";
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,11 +39,11 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
     
     <?php
         require_once "include/funcao/validaForm.php";
     ?>
-    <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
@@ -74,11 +74,9 @@
     <!-- Navbar End -->
 
     <!-- Formulario Start -->
-
-      <?php 
-        require_once "../include/modal.php";
-      ?>
-
+    <?php
+        require_once "include/FrmLogin.php";
+    ?> 
     <!-- Formulario End -->
 
     <!-- Back to Top -->
