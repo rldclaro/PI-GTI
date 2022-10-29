@@ -6,14 +6,14 @@
             <div class="modal-header">
             </div>
             <div class="modal-body" style="text-align:center;">
-                <h4 class="modal-title" style="text-align:center;">O Que deseja efetuar ?</h4>
+                <h4 class="modal-title" style="text-align:center;">Caso não tenha usuario, cadastre-se abaixo <br> caso tenha usuario, efetue seu login</h4>
                 <br>
-                <a class="btn btn-primary" href="Cadastro.php" role="button">Cadastrar-se</a> <br>
-                <a class="btn btnbtn-primary" style="margin-top:10px;" href="Login.php" role="button">Logar</a>
+                <a class="btn btn-primary" href="Cadastro.php" role="button">Cadastre-se</a> <br>
+                <a class="btn btn-primary" style="margin-top:10px;" href="Login.php" role="button">Login</a>
                 <br><br>
             </div>
             <div class="modal-footer" style="text-align:center;">
-                <p>&copy;Alex Preparações. Since 2017&trade;<p>
+                <p>&copy;Search People. Since 2019&trade;<p>
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@
     //Instancia do Banco de dados
     require_once "MySQL/ConfigSession.php";
     require_once "MySQL/conexao.php";
-    require_once "include/funcao/functions.php";
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,9 +28,7 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -41,11 +39,9 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    
     <?php
         require_once "include/funcao/validaForm.php";
     ?>
-    <link rel="stylesheet" href="css/modal.css">
 </head>
 
 <body>
@@ -76,9 +72,9 @@
     <!-- Navbar End -->
 
     <!-- Formulario Start -->
-    <?php 
+    <?php
         require_once "include/modal.php";
-    ?>
+    ?> 
     <!-- Formulario End -->
 
     <!-- Back to Top -->
