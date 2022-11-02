@@ -44,6 +44,8 @@
     <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css"> 
     <?php
         require_once "include/funcao/validaForm.php";
+
+        
     ?>
 </head>
 
