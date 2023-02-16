@@ -13,7 +13,7 @@
                 <br><br>
             </div>
             <div class="modal-footer" style="text-align:center;">
-                <p>&copy;Search People. Since 2019&trade;<p>
+                <p>&copy;Alex Preparações. Since 2017&trade;<p>
             </div>
         </div>
     </div>
