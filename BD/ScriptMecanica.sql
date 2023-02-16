@@ -1,33 +1,17 @@
 drop database mecanica;
+
 create database mecanica character set UTF8;
 use mecanica;
 
 create table Pessoa(
 	cod_Pessoa int(5) not null primary key auto_increment,
     cpf_Pessoa int(11) not null,
-	nome_Pessoa varchar(100) not null,
+    nome_Pessoa varchar(100) not null,
+	telefone varchar (15),
+    RG varchar(15),
     dtNasc_Pessoa date,
-	Data_Cadastro date
-
-);
-
-create table EnderecoPessoa(
-	cod_Endereco int (5) not null primary key auto_increment,
-    cep varchar(8) not null,
-    numero int(9) not null,
-    complemento varchar (30) not null,
-    referencia varchar (50),
-    cod_ReferenciaPessoa int (5) not null,
-    foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
-);
-
-create table ContatoPessoa(
-	cod_Telefone int (5) not null primary key auto_increment,
-    ddd_contatoPessoa varchar(3) not null,
-    numero_contatoPessoa int(9) not null,
-    tipo_contatoPessoa varchar(15),
-    cod_ReferenciaPessoa int(5) not null,
-    foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
+	email varchar(40),
+	senha varchar(255)
 );
 
 create table Cliente(
