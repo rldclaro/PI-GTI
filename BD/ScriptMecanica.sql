@@ -108,29 +108,21 @@ create table ProdutoFornecedor(
 	foreign key (cod_Referenciafornecedor) references Fornecedor (cod_Fornecedor)
 );
 
-create table StatusPedido(
+create table StatusServico(
 	cod_Status int(1) primary key not null auto_increment,
 	descricao_status varchar(34)
 );
 
-create table Pedido(
-	cod_Pedido int (11) primary key not null auto_increment,
+create table servico(
+	cod_Servico int (11) primary key not null auto_increment,
 	cod_ReferenciaCliente int (5) not null,
     cod_ReferenciaProduto  int (11) not null,
-	valortotal_pedido decimal (7,2) null,
-	StatusPedido int(2),
-	data_pedido date not null,
+	valortotal_servico decimal (7,2) null,
+	Status_servico int(2),
+	data_servico date not null,
 	hora_pedido time not null,
 	observacao varchar (255) null,
     foreign key (cod_ReferenciaProduto) references Produto(cod_Produto),
 	foreign key (cod_ReferenciaCliente) references Cliente (cod_Cliente),
-	foreign key (StatusPedido) references StatusPedido(cod_Status)
-);
-
-create table agendamento(
-	cod_Agendamento int(20) primary key not null auto_increment,
-    cod_ReferenciaPedido int(11) not null,
-    data_Agendamento date not null,
-    hora_Agendamento time not null,
-    foreign key (cod_ReferenciaPedido) references Pedido(cod_Pedido)
+	foreign key (Status_servico) references StatusServico(cod_Status)
 );
