@@ -1,9 +1,3 @@
-<?php
-    //Instancia do Banco de dados
-    require_once "MySQL/ConfigSession.php";
-    require_once "MySQL/conexao.php";
-    
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,10 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
-    <!-- Bootstrap da pagina -->
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -39,9 +30,6 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <?php
-        require_once "include/funcao/validaForm.php";
-    ?>
 </head>
 
 <body>
@@ -57,7 +45,7 @@
     <!-- Topbar Start -->
     <?php
         require_once "include/topbar.php";
-    ?>  
+    ?> 
     <!-- Topbar End -->
 
 
@@ -71,11 +59,50 @@
     ?>
     <!-- Navbar End -->
 
-    <!-- Formulario Start -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-1.jpg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Sobre Nós</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Service Start -->
+    <?php 
+        require_once "include/ServiceStart.php"    
+    ?>
+    <!-- Service End -->
+
+    <!-- About Start -->
     <?php
-        require_once "include/modal.php";
+        require_once "include/sobre.php";
+    ?>
+    <!-- About End -->
+
+
+    <!-- Fact Start -->
+    <?php
+        require_once "include/infos.php";
+    ?>  
+    <!-- Fact End -->
+     
+    <!-- Team Start -->
+    <?php
+        require_once "include/team.php";
+    ?>     
+    <!-- Team End -->
+        
+
+    <!-- Footer Start -->
+    <?php
+        require_once "include/footer.php";
     ?> 
-    <!-- Formulario End -->
+    <!-- Footer End -->
+
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>

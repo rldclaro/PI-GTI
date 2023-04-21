@@ -29,10 +29,9 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Contate-nos</h4>
-                <p>Para mais informações ou até mesmo um atendimento direcionado basta ligar!!</p>
+                <p align="justify">Para mais informações ou até mesmo um atendimento direcionado chame via WhatsApp</p>
                 <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Digite seu Email">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Enviar</button>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+55 19 99745-2533</p>
                 </div>
             </div>
         </div>
