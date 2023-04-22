@@ -10,14 +10,12 @@
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid" src="img/rildo.jpeg" alt="">
                         <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/rildoclaro/"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="fw-bold mb-0">Rildo Claro</h5>
-                        <small>Gestor de Projetos & Desenvolvedor</small>
+                        <small>Gestor de Projetos, Product Owner & Desenvolvedor</small>
                     </div>
                 </div>
             </div>
@@ -26,9 +24,7 @@
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid" src="img/bia.jpg" alt="">
                         <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/beatrizmsrodrigues/"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
@@ -42,13 +38,11 @@
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid" src="img/lucas.jpeg" alt="">
                         <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/lucas-leoncio-98059a12b/"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="fw-bold mb-0">Lucas Leôncio</h5>
+                        <h5 class="fw-bold mb-0">Lucas Leoncio</h5>
                         <small>???</small>
                     </div>
                 </div>
@@ -58,9 +52,7 @@
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid" src="img/lari.jpg" alt="">
                         <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/larissa-costa-0b575a208/"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
@@ -74,14 +66,12 @@
                     <div class="position-relative overflow-hidden">
                         <img class="img-fluid" src="img/renatinho.jpg" alt="">
                         <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/oliveirarenatoo/"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="fw-bold mb-0">Paulo Renato</h5>
-                        <small>????</small>
+                        <small>Gestor de Comunicação & Análise de Dados</small>
                     </div>
                 </div>
             </div>

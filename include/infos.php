@@ -17,7 +17,7 @@
                 <p class="text-white mb-0">Clientes Satisfeitos</p>
             </div>
             <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                <i class="fa fa-car fa-2x text-white mb-3"></i>
+                <i class="fa fa-motorcycle fa-2x text-white mb-3"></i>
                 <h2 class="text-white mb-2" data-toggle="counter-up">4</h2>
                 <p class="text-white mb-0">Projetos Finalizados</p>
             </div>
