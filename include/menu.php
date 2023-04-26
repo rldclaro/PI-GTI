@@ -14,6 +14,6 @@
             
             <a href="contact.php" class="nav-item nav-link">Contatos</a>
         </div>
-        <a href="Decision.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">WhatsApp<i class="fa fa-arrow-right ms-3"></i></a>
+        <a href="https://wa.me/551997452533?text=Olá, gostaria de algo de 100 mil reais" target="_blank" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">WhatsApp<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
 </nav>
