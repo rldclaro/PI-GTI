@@ -15,7 +15,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="fw-bold mb-0">Rildo Claro</h5>
-                        <small>Gestor de Projetos, Product Owner & Desenvolvedor</small>
+                        <small>Gestor de Projetos & Desenvolvedor</small>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="fw-bold mb-0">Lucas Leoncio</h5>
-                        <small>???</small>
+                        <small>Gestor(a) de Dados</small>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="fw-bold mb-0">Larissa Silva</h5>
-                        <small>????</small>
+                        <small>Gestor(a) de Marketing</small>
                     </div>
                 </div>
             </div>
