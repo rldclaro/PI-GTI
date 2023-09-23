@@ -5,13 +5,13 @@ use mecanica;
 
 create table Pessoa(
 	cod_Pessoa int(5) not null primary key auto_increment,
-    cpf_Pessoa int(11) not null,
+    cpf_Pessoa varchar(15) not null,
     nome_Pessoa varchar(100) not null,
 	telefone varchar (15),
-    RG varchar(15),
-    dtNasc_Pessoa date,
-	email varchar(40),
-	senha varchar(255)
+    RG varchar(15) not null,  
+    dtNasc_Pessoa date not null,
+	email varchar(40) not null,
+	senha varchar(255)not null
 );
 
 create table Cliente(
@@ -50,9 +50,11 @@ create table Fornecedor(
     razao_SocialFornecedor varchar(100) not null,
     cnpj varchar(14) not null,
     nome_FantasiaFornecedor varchar(100) not null,
+    inscricaoEstadual varchar(16) not null,
     cod_ReferenciaPessoa int(5) not null,
     data_Cadastro date,
     logradouro varchar(150) not null,
+    estado varchar(3) not null,
     foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
 );
 
@@ -126,3 +128,6 @@ create table servico(
 	foreign key (cod_ReferenciaCliente) references Cliente (cod_Cliente),
 	foreign key (Status_servico) references StatusServico(cod_Status)
 );
+
+
+insert into Pessoa values (NULL, "472.931.338-04", "Rildo", "19 99745-2533", "45.368.338-1", "1999.04.10", "admin@gmail.com", "98fbc344e5bba6fbdf48b0af5b084c06eeeafa78")
