@@ -2,7 +2,6 @@
     //Instancia do Banco de dados
     session_start();
     require_once "../MySQL/conexao.php";
-    require_once "../include/funcao/validaForm.php";
     
     if(isset($_SESSION['id'])){
     //Variaveis Recebendo Valores do Formulario
@@ -13,11 +12,11 @@
     $ie = $_REQUEST["ie"];
     $logradouro = $_REQUEST["endereco"];
     $estado = $_REQUEST["estado"];
-    $dataAtual = date('yyyy-mm-dd');
+    
 
     // Preparar a instrução SQL
-    $String = "insert into Fornecedor (cod_Fornecedor, razao_SocialFornecedor, cnpj, nome_FantasiaFornecedor, inscricaoEstadual, cod_ReferenciaPessoa, logradouro, estado, data_Cadastro)
-                    values (NULL, '" . $razaoSocial . "', '" . $cnpj . "', '" . $nomeFantasia . "', '" . $ie . "', '$idLogado', '" . $logradouro . "', '" . $estado . "','" . $dataAtual."')";
+    $String = "INSERT INTO Fornecedor (cod_Fornecedor, razao_SocialFornecedor, cnpj, nome_FantasiaFornecedor, inscricaoEstadual, cod_ReferenciaPessoa, logradouro, estado, data_Cadastro)
+    VALUES (NULL, '" . $razaoSocial . "', '" . $cnpj . "', '" . $nomeFantasia . "', '" . $ie . "', '$idLogado', '" . $logradouro . "', '" . $estado . "', CURRENT_TIMESTAMP)";
 
     $result = mysqli_query($conexao, $String);
     if (mysqli_affected_rows($conexao) > 0) {
@@ -32,5 +31,9 @@
     }
 
         mysqli_close($conexao);
+    }else{
+        echo"<script type=\"text/javascript\">
+      alert('Favor Logar!');
+      </script>";
     }
 ?>
