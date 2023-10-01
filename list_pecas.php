@@ -2,6 +2,8 @@
     //Instancia do Banco de dados
     session_start();
     require_once "MySQL/conexao.php";
+    $String = "SELECT * from Pessoa";
+    $result = mysqli_query($conexao, $String);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +23,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
@@ -69,7 +76,7 @@
     <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-2.jpg);">
         <div class="container-fluid page-header-inner py-5">
             <div class="container text-center">
-                <h1 class="display-3 text-white mb-3 animated slideInDown"> Cadastro de Fornecedores</h1>
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Produtos em Estoque</h1>
             </div>
         </div>
     </div>
@@ -78,7 +85,7 @@
 
     <!-- Testimonial Start -->
     <?php
-        require_once "include/FrmCadastro.php"
+        require_once "include/peca.php"
     ?>
     <!-- Testimonial End -->
 

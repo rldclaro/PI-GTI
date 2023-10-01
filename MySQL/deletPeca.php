@@ -2,16 +2,16 @@
         //Instancia do Banco de dados
         session_start();
         require_once "../MySQL/conexao.php";
-        $idFornecedor = $_REQUEST['idFornecedor'];
+        $idProduto = $_REQUEST['idProduto'];
         if(isset($_SESSION['id'])){
             
-            $String = "DELETE FROM Fornecedor WHERE cod_Fornecedor = " . $idFornecedor;
+            $String = "DELETE FROM Produto WHERE cod_Produto = " . $idProduto;
 
             $result = mysqli_query($conexao, $String);
             if (mysqli_affected_rows($conexao) > 0) {
                 echo"<script type=\"text/javascript\">
-                        alert('Fornecedor Excluido com sucesso');
-                        window.location='../list_fornecedores.php';
+                        alert('Produto Excluido com sucesso');
+                        window.location='../list_pecas.php';
                     </script>";
             } else {
                 echo"<script type=\"text/javascript\">

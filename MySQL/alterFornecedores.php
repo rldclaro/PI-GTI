@@ -39,6 +39,7 @@
     }else{
       echo"<script type=\"text/javascript\">
     alert('Favor Logar!');
+    window.location='../login.php';
     </script>";
     }
 ?>

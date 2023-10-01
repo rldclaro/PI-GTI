@@ -4,7 +4,7 @@
   $result = mysqli_query($conexao, $String);
   // Função para formatar a data no formato desejado
   function formatarData($data) {
-    return date("d-m-Y", strtotime($data));
+    return date("d/m/Y", strtotime($data));
   }
 
 ?>

@@ -10,11 +10,32 @@
             <li class="nav-item">
                 <a href="index.php" class="nav-link active">Início</a>
             </li>
-            <li class="nav-item">
-                <a href="about.php" class="nav-link">Peças</a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="pecasDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                    Peças
+                </a>
+                <div class="dropdown-menu" aria-labelledby="pecasDropdown">
+                    <a class="dropdown-item" href="pecas.php">Cadastro de Peças</a>
+                    <a class="dropdown-item" href="list_pecas.php">Estoque</a>
+                </div>
             </li>
-            <li class="nav-item">
-                <a href="fornecedores.php" class="nav-link">Forecedores</a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="fornecedorDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                    Fornecedores
+                </a>
+                <div class="dropdown-menu" aria-labelledby="fornecedorDropdown">
+                    <a class="dropdown-item" href="fornecedores.php">Cadastro de Fornecedor</a>
+                    <a class="dropdown-item" href="list_fornecedores.php">Lista de Fornecedores</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="funcionarioDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                    Funcionarios
+                </a>
+                <div class="dropdown-menu" aria-labelledby="funcionarioDropdown">
+                    <a class="dropdown-item" href="cadastro.php">Cadastro de Funcionarios</a>
+                    <a class="dropdown-item" href="list_funcionarios.php">Lista de Funcionarios</a>
+                </div>
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="servicosDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
@@ -26,9 +47,7 @@
                     <a class="dropdown-item" href="servico3.php">Serviço 3</a>
                 </div>
             </li>
-            <li class="nav-item">
-                <a href="contact.php" class="nav-link">Serviços Abertos</a>
-            </li>
+            
         </ul>
         <a href="regServices.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Registrar Serviço<i class="fa fa-arrow-right ms-3"></i></a>
     </div>

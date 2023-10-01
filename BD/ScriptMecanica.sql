@@ -80,25 +80,15 @@ create table Funcionario(
     foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
 );
 
-create table Categorias(
-	cod_categoria int (2) primary key auto_increment not null,
-	descricao_categoria varchar (30)
-);
-
-create table TipoProduto(
-	cod_tipoProd int(2) not null primary key auto_increment,
-	desc_tipoProd varchar(30) not null
-);
-
 create table Produto(
 	cod_Produto int(5) not null primary key auto_increment,
     nome_Produto varchar(100) not null,
-    categoria_produto int (2) not null,
-    tipo_produto int(2) not null,
     qtd_produto int(3) not null,
-    img varchar (130) default "",
-    foreign key (categoria_produto) references Categorias (cod_categoria),
-	foreign key (tipo_produto) references TipoProduto (cod_tipoProd)
+    tipoProduto varchar(30) not null,
+    categoria varchar(30) not null,
+    cod_ReferenciaPessoa int(5) not null,
+    data_Cadastro date,
+    foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
 );
 
 create table ProdutoFornecedor(
