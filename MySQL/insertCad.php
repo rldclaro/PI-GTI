@@ -21,7 +21,7 @@ $result = mysqli_query($conexao, $String);
 if (mysqli_affected_rows($conexao) > 0) {
     echo"<script type=\"text/javascript\">
             alert('Cadastro Efetuado com Sucesso');
-            window.location='../Login.php';
+            window.location='../cadastro.php';
         </script>";
 } else {
     echo"<script type=\"text/javascript\">

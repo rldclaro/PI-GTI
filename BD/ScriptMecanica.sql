@@ -16,33 +16,14 @@ create table Pessoa(
 
 create table Cliente(
 	cod_Cliente int(5) not null primary key auto_increment,
-    login_Cliente varchar(150) not null,
-    senha_Cliente varchar(150) not null,
+    nomeCliente varchar(100) not null,
+    marca varchar(100) not null,
+    modelo varchar(100) not null,
+    ano varchar(100) not null,
+    placa varchar(100) not null,
+    cor varchar(100) not null,
     cod_ReferenciaPessoa int(5) not null,
     foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
-);
-
-create table Montadora(
-	cod_Montadora int (5) primary key auto_increment not null,
-	nome_montadora varchar (30)
-);
-
-create table ModeloMotocicleta(
-	cod_Modelo int(5) not null primary key auto_increment,
-    cod_ReferenciaMontadora int(5) not null,
-	nome_Modelo varchar(30) not null,
-    foreign key (cod_ReferenciaMontadora) references Montadora(cod_Montadora)
-);
-
-create table Motocicleta(
-	cod_Motocicleta int(5) not null primary key auto_increment,
-    placa_Moto varchar(10) not null,
-    cod_ReferenciaMontadora int(5) not null,
-    cod_ReferenciaModelo int(5) not null,
-    cod_ReferenciaCliente int(5) not null,
-    foreign key (cod_ReferenciaCliente) references Cliente(cod_Cliente),
-    foreign key (cod_ReferenciaMontadora) references Montadora(cod_Montadora),
-    foreign key (cod_ReferenciaModelo) references ModeloMotocicleta(cod_Modelo)
 );
 
 create table Fornecedor(

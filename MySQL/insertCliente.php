@@ -7,20 +7,22 @@ require_once "../include/funcao/validaForm.php";
 if(isset($_SESSION['id'])){
     //Variaveis Recebendo Valores do Formulario
     $idLogado = $_SESSION['id'];
-    $nomePeca = $_REQUEST["txtNome"];
-    $tipoPeca = $_REQUEST["txtPeca"];
-    $quantidade = $_REQUEST["txtQtd"];
-    $categoria = $_REQUEST["categoria_Produto"]; 
+    $nomeCliente = $_REQUEST["txtNomeCliente"];
+    $marca = $_REQUEST["txtMarca"];
+    $modelo = $_REQUEST["txtModelo"];
+    $ano = $_REQUEST["txtAno"]; 
+    $placa = $_REQUEST["txtPlaca"]; 
+    $cor = $_REQUEST["txtCor"]; 
 
     // Preparar a instrução SQL
-    $String = "INSERT INTO Produto (cod_Produto, nome_Produto, qtd_produto, tipoProduto, categoria, cod_ReferenciaPessoa, data_Cadastro)
-    VALUES (NULL, '" . $nomePeca . "', '" . $quantidade . "', '" . $tipoPeca. "', '" . $categoria . "', '$idLogado', CURRENT_TIMESTAMP)";
+    $String = "INSERT INTO Cliente (cod_Cliente, nomeCliente, marca, modelo, ano, placa, cor, cod_ReferenciaPessoa)
+    VALUES (NULL, '" . $nomeCliente . "', '" . $marca . "', '" . $modelo. "', '" . $ano . "','" . $placa . "','" . $cor . "', '$idLogado')";
 
     $result = mysqli_query($conexao, $String);
     if (mysqli_affected_rows($conexao) > 0) {
         echo"<script type=\"text/javascript\">
                 alert('Cadastro Efetuado com Sucesso');
-                window.location='../list_pecas.php';
+                window.location='../list_cliente.php';
             </script>";
     } else {
         echo"<script type=\"text/javascript\">

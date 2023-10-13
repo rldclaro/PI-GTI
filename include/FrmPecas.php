@@ -19,8 +19,8 @@
                 <input type="number" id="txtQtd" name="txtQtd" placeholder="Digite a quantidade" class="form-control" min="0">
             </div>
             <div class="form-group col-md-6">
-            <label for="categoria">Categoria</label>
-            <select id="categoria" name="categoria" class="form-control" required>
+            <label for="categoria_Produto">Categoria</label>
+            <select id="categoria_Produto" name="categoria_Produto" class="form-control" required>
             <option value="">Selecione</option>
                 <option value="Motor">Motor</option>
                 <option value="Injeção Eletronica">Injeção Eletronica</option>

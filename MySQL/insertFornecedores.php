@@ -22,7 +22,7 @@
     if (mysqli_affected_rows($conexao) > 0) {
         echo"<script type=\"text/javascript\">
                 alert('Cadastro Efetuado com Sucesso');
-                window.location='../fornecedores.php';
+                window.location='../list_fornecedores.php';
             </script>";
     } else {
         echo"<script type=\"text/javascript\">

@@ -36,7 +36,7 @@
                       data-id="<?= $registro['cod_Produto']; ?>" 
                       data-nome="<?= $registro['nome_Produto']; ?>"
                       data-telefone="<?= $registro['categoria']; ?>"
-                      data-telefone="<?= $registro['tipoProduto']; ?>"
+                      data-tipo="<?= $registro['tipoProduto']; ?>"
                       data-qtd="<?= $registro['qtd_produto']; ?>"
                       >
 

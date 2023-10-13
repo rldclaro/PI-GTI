@@ -30,11 +30,13 @@
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="funcionarioDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
-                    Funcionarios
+                    Cliente & Funcionarios
                 </a>
                 <div class="dropdown-menu" aria-labelledby="funcionarioDropdown">
                     <a class="dropdown-item" href="cadastro.php">Cadastro de Funcionarios</a>
                     <a class="dropdown-item" href="list_funcionarios.php">Lista de Funcionarios</a>
+                    <a class="dropdown-item" href="cliente.php">Cadastro de Clientes</a>
+                    <a class="dropdown-item" href="list_cliente.php">Lista de Clientes</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
