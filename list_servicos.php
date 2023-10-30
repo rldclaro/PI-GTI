@@ -2,19 +2,6 @@
     //Instancia do Banco de dados
     session_start();
     require_once "MySQL/conexao.php";
-
-    $Cliente = "SELECT * from Cliente";
-    $result_cliente = mysqli_query($conexao, $Cliente);
-
-    $Pecas = "SELECT * from Produto";
-    $result_pecas = mysqli_query($conexao, $Pecas);
-
-    $modelo = "SELECT * from Cliente";
-    $result_modelo = mysqli_query($conexao, $modelo);
-
-    $Cliente = "SELECT * from Cliente";
-    $result_cliente = mysqli_query($conexao, $Cliente);
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -87,7 +74,7 @@
     <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-2.jpg);">
         <div class="container-fluid page-header-inner py-5">
             <div class="container text-center">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">Cadastro de Serviços</h1>
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Listagem de Servicos</h1>
             </div>
         </div>
     </div>
@@ -96,7 +83,7 @@
 
     <!-- Testimonial Start -->
     <?php
-        require_once "include/FrmServicos.php"
+        require_once "include/TableServicos.php"
     ?>
     <!-- Testimonial End -->
 

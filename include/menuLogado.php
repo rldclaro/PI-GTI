@@ -12,11 +12,11 @@
             </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="pecasDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
-                    Peças
+                    Manutenções
                 </a>
                 <div class="dropdown-menu" aria-labelledby="pecasDropdown">
-                    <a class="dropdown-item" href="pecas.php">Cadastro de Peças</a>
-                    <a class="dropdown-item" href="list_pecas.php">Estoque</a>
+                    <a class="dropdown-item" href="pecas.php">Cadastro de Manutenções</a>
+                    <a class="dropdown-item" href="list_pecas.php">Listagem de Manutenções</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -45,12 +45,11 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="servicosDropdown">
                     <a class="dropdown-item" href="regServices.php">Cadastro de Serviços</a>
-                    <a class="dropdown-item" href="servico2.php">Serviço 2</a>
-                    <a class="dropdown-item" href="servico3.php">Serviço 3</a>
+                    <a class="dropdown-item" href="list_servicos.php">Listagem de Serviços</a>
                 </div>
             </li>
             
         </ul>
-        <a href="regServices.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Registrar Serviço<i class="fa fa-arrow-right ms-3"></i></a>
+        <a href="logout.php" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Finalizar Sessão<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
 </nav>

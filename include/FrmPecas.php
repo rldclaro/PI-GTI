@@ -2,12 +2,12 @@
     <div class="container">    
     <div class="form-row">
             <div class="form-group col-sm-6">
-                <label for="txtNome">Nome Peça</label>
-                <input type="text" id="txtNome" name="txtNome" placeholder="Digite o nome da peça" class="form-control" maxlength="50">
+                <label for="txtNome">Nome do Serviço</label>
+                <input type="text" id="txtNome" name="txtNome" placeholder="Digite o nome do serviço" class="form-control" maxlength="50">
             </div>
             
             <div class="form-group col-md-6">
-            <label for="txtPeca">Tipo de Peça</label>
+            <label for="txtPeca">Tipo de Peças utilizadas</label>
             <select id="txtPeca" name="txtPeca" class="form-control" required>
             <option value="">Selecione</option>
                 <option value="Peça Original">Peça Original</option>
@@ -24,6 +24,7 @@
             <option value="">Selecione</option>
                 <option value="Motor">Motor</option>
                 <option value="Injeção Eletronica">Injeção Eletronica</option>
+                <option value="Carenagem">Carburação</option>
                 <option value="Carenagem">Carenagem</option>
                 <option value="Pneu">Pneu</option>
                 <option value="Freios">Freios</option>
