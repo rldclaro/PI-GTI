@@ -1,6 +1,5 @@
 <?php
-    //Instancia do Banco de dados
-    require_once "MySQL/ConfigSession.php";
+    session_start();
     require_once "MySQL/conexao.php";
     
 ?>

@@ -44,7 +44,7 @@
                     Serviços
                 </a>
                 <div class="dropdown-menu" aria-labelledby="servicosDropdown">
-                    <a class="dropdown-item" href="servico1.php">Serviço 1</a>
+                    <a class="dropdown-item" href="regServices.php">Cadastro de Serviços</a>
                     <a class="dropdown-item" href="servico2.php">Serviço 2</a>
                     <a class="dropdown-item" href="servico3.php">Serviço 3</a>
                 </div>
