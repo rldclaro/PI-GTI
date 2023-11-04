@@ -1,6 +1,6 @@
 <?php
   
-  $String = "SELECT * from Pessoa";
+  $String = "SELECT * from pessoa";
   $result = mysqli_query($conexao, $String);
   // Função para formatar a data no formato desejado
   function formatarData($data) {
@@ -13,7 +13,7 @@
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Nome Funcionario</th>
+                <th>Nome Funcionário</th>
                 <th>Telefone</th>
                 <th>Email</th>
                 <th>Editar</th>

@@ -12,7 +12,7 @@
             </div>
             <div class="col-lg-6">
                 <h6 class="text-primary text-uppercase">Sobre Nós</h6>
-                <h3 class="mb-4"><span class="text-primary">Alex Preparações</span> Uma Oficina familiar onde buscamos inovar e sempre estar atualizado de acordo com o mercado</h3>
+                <h3 class="mb-4"><span class="text-primary">Alex Preparações</span> Uma Oficina familiar buscando sempre a inovação de acordo com o mercado atual.</h3>
                 <p class="mb-4"> Oficina conta com as melhores tecnologias do mercado incluindo: Reprogramação de centrais, correção de erros etc...</p>
                 <div class="row g-4 mb-3 pb-3">
                     <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
@@ -33,7 +33,7 @@
                             </div>
                             <div class="ps-3">
                                 <h6>Reprogramação de Centrais</h6>
-                                <span>Reprogramação de centrais para melhorar fluxo de combstivel</span>
+                                <span>Reprogramação de centrais para melhorar fluxo de combustível</span>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="" class="btn btn-primary py-3 px-5">Quer saber mais ? Clique!<i class="fa fa-arrow-right ms-3"></i></a>
+                <a href="" class="btn btn-primary py-3 px-5">Quer saber mais? Clique aqui!<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </div>
     </div>

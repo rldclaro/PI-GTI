@@ -5,7 +5,7 @@
         $idCliente = $_REQUEST["idCliente"];
         if(isset($_SESSION['id'])){
             
-            $String = "DELETE FROM Cliente WHERE cod_Cliente = " . $idCliente;
+            $String = "DELETE FROM cliente WHERE cod_Cliente = " . $idCliente;
 
             $result = mysqli_query($conexao, $String);
             if (mysqli_affected_rows($conexao) > 0) {

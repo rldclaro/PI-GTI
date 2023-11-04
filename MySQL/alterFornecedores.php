@@ -14,7 +14,7 @@
     $estado = $_REQUEST["estado"];
 
     // Preparar a instrução SQL
-    $String = "UPDATE Fornecedor SET 
+    $String = "UPDATE fornecedor SET 
         razao_SocialFornecedor = '" . $razaoSocial . "', 
         cnpj = '" . $cnpj . "', 
         nome_FantasiaFornecedor = '" . $nomeFantasia . "', 

@@ -8,7 +8,7 @@
                     <div class="nav w-100 nav-pills me-4">
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
                             <i class="fa fa-motorcycle fa-2x me-3"></i>
-                            <h4 class="m-0">Diagnostico Teste</h4>
+                            <h4 class="m-0">Diagnóstico Teste</h4>
                         </button>
                         <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
                             <i class="fa fa-motorcycle fa-2x me-3"></i>

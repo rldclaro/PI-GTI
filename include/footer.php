@@ -14,10 +14,10 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h4 class="text-light mb-4">Horario de Abertura</h4>
+                <h4 class="text-light mb-4">Horário de Abertura</h4>
                 <h6 class="text-light">Segunda - Sexta</h6>
                 <p class="mb-4">9h - 18h</p>
-                <h6 class="text-light">Sabado</h6>
+                <h6 class="text-light">Sábado</h6>
                 <p class="mb-0">9h - 12h</p>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -25,7 +25,7 @@
                 <a class="btn btn-link" href="">Testes de Diagnóstico</a>
                 <a class="btn btn-link" href="">Revisões</a>
                 <a class="btn btn-link" href="">Montadoras Suportadas</a>
-                <a class="btn btn-link" href="">Tipos de Oleo</a>
+                <a class="btn btn-link" href="">Tipos de Óleo</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Contate-nos</h4>

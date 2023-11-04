@@ -15,7 +15,7 @@
     
 
     // Preparar a instrução SQL
-    $String = "INSERT INTO Fornecedor (cod_Fornecedor, razao_SocialFornecedor, cnpj, nome_FantasiaFornecedor, inscricaoEstadual, cod_ReferenciaPessoa, logradouro, estado, data_Cadastro)
+    $String = "INSERT INTO fornecedor (cod_Fornecedor, razao_SocialFornecedor, cnpj, nome_FantasiaFornecedor, inscricaoEstadual, cod_ReferenciaPessoa, logradouro, estado, data_Cadastro)
     VALUES (NULL, '" . $razaoSocial . "', '" . $cnpj . "', '" . $nomeFantasia . "', '" . $ie . "', '$idLogado', '" . $logradouro . "', '" . $estado . "', CURRENT_TIMESTAMP)";
 
     $result = mysqli_query($conexao, $String);

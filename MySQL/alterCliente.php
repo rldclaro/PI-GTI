@@ -15,7 +15,7 @@
     $cor = $_REQUEST["txtCor"]; 
 
     // Preparar a instrução SQL
-    $String = "UPDATE Cliente SET 
+    $String = "UPDATE cliente SET 
         nomeCliente = '" . $nomeCliente . "', 
         marca = '" . $marca . "', 
         modelo = '" . $modelo . "', 
