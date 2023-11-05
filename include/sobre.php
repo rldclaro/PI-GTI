@@ -12,7 +12,7 @@
             </div>
             <div class="col-lg-6">
                 <h6 class="text-primary text-uppercase">Sobre Nós</h6>
-                <h3 class="mb-4"><span class="text-primary">Alex Preparações</span> Uma Oficina familiar buscando sempre a inovação de acordo com o mercado atual.</h3>
+                <h3 class="mb-4"><span class="text-primary">Alex Preparações</span> é uma oficina familiar buscando sempre a inovação de acordo com o mercado atual.</h3>
                 <p class="mb-4"> Oficina conta com as melhores tecnologias do mercado incluindo: Reprogramação de centrais, correção de erros etc...</p>
                 <div class="row g-4 mb-3 pb-3">
                     <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
