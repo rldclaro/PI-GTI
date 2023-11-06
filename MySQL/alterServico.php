@@ -7,10 +7,12 @@
     $id = $_REQUEST["idservico"];
     $observacao = $_REQUEST["observacao"];
     $dataServico = $_REQUEST["dataServico"];
+    $statusServico = $_REQUEST["statusServico"];
 
     // Preparar a instrução SQL
     $String = "UPDATE servico SET 
         observacao = '" . $observacao . "', 
+        status_servico = '" . $statusServico . "',
         data_servico = '" . $dataServico . "'
       WHERE cod_Servico = " . $id;
 

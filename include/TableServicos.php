@@ -14,11 +14,12 @@
             <tr>
                 <th>ID</th>
                 <th>Nome do Cliente</th>
-                <th>Modelo da moto</th>
+                <th>Modelo da Moto</th>
                 <th>Nome do Serviço</th>
                 <th>Data do Serviço</th>
+                <th>Status do Serviço</th>
                 <th>Mais Informações</th>
-                <th>Finalizar Serviço</th>
+                <th>Excluir Serviço</th>
             </tr>
         </thead>
         <tbody>
@@ -29,6 +30,7 @@
                     <td><?= $registro['modelo_moto']; ?></td>
                     <td><?= $registro['nome_serviço']; ?></td>
                     <td><?= formatarData($registro['data_servico']); ?></td>
+                    <td><?= $registro['status_servico']; ?></td>
                     <td>
                       <a href="" class="btn btn-success btn-sm rounded-0 open-edit-modal" role="button" data-toggle="modal" data-target="#editarModal" 
                       data-id="<?= $registro['cod_Servico']; ?>" 
@@ -37,6 +39,7 @@
                       data-modelo_fantasia="<?= $registro['modelo_moto']; ?>"
                       data-ob="<?= $registro['observacao']; ?>"
                       data-data="<?= $registro['data_servico']; ?>"
+                      data-status="<?= $registro['status_servico']; ?>"
                       >
 
                         <i class="fa fa-edit"></i>
@@ -86,6 +89,13 @@
                 <label for="dataServico">Data do Serviço:</label>
                 <input type="date" class="form-control" id="dataServico" name="dataServico" required>
             </div>
+            <div class="form-group">
+              <label for="statusServico">Status do Serviço:</label>
+              <select class="form-control" id="statusServico" name="statusServico" required>
+                  <option value="Aberto">Serviço Aberto</option>
+                  <option value="Fechado">Serviço Fechado</option>
+              </select>
+          </div>        
             <button type="submit" id="button" style=" border-radius: 15px; padding: 5.5px 52px;" class="btn btn-primary" >Enviar</button>
           </div>
         </form>
@@ -99,7 +109,7 @@
     <div class="modal-content">
       <!-- Cabeçalho da Modal -->
       <div class="modal-header">
-        <h4 class="modal-title">Deseja Finalizar o serviço?</h4>
+        <h4 class="modal-title">Deseja excluir o serviço?</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -118,7 +128,7 @@
                 <input type="text" class="form-control" id="nomeCliente" name="nomeCliente" placeholder="Digite o nome fantasia" readonly>
               </div>
             </div>
-            <button type="submit" style=" border-radius: 15px;" class="btn btn-warning">Sim, finalizar</button>
+            <button type="submit" style=" border-radius: 15px;" class="btn btn-warning">Sim, excluir.</button>
             <!-- <button type="button" class="close" style=" border-radius: 15px; margin-left: 160px;" class="btn btn-info">Não, Cancelar</button> -->
           </div>
         </form>

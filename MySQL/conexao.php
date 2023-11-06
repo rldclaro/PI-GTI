@@ -1,4 +1,9 @@
 <?php
+	//$servername = "localhost:3306";
+	//$username = "root";
+	//$password = "";
+	//$database = "mecanica";
+	
 	$servername = "srv811-files.hstgr.io";
 	$username = "u378026357_admin";
 	$password = "Fatec@2023";

@@ -49,7 +49,13 @@
         <label for="dataServico">Data do Serviço:</label>
         <input type="date" class="form-control" id="dataServico" name="dataServico" required>
     </div>
-
+    <div class="form-group">
+        <label for="statusServico">Status do Serviço:</label>
+        <select class="form-control" id="statusServico" name="statusServico" required>
+            <option value="Aberto">Serviço Aberto</option>
+            <option value="Fechado">Serviço Fechado</option>
+        </select>
+    </div>        
     <button type="submit" style=" border-radius: 15px;" class="btn btn-primary">Enviar</button>
   </form>
 </div>

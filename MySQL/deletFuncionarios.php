@@ -11,7 +11,7 @@
             if (mysqli_affected_rows($conexao) > 0) {
                 echo"<script type=\"text/javascript\">
                         alert('Funcionario Excluido com sucesso');
-                        window.location='../list_funcionario.php';
+                        window.location='../list_funcionarios.php';
                     </script>";
             } else {
                 echo"<script type=\"text/javascript\">

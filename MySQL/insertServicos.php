@@ -11,10 +11,11 @@ if(isset($_SESSION['id'])){
     $modeloMoto = $_REQUEST["modeloMoto"];
     $observacao = $_REQUEST["observacao"];
     $dataServico = $_REQUEST["dataServico"];
+    $statusServico = $_REQUEST["statusServico"];
 
     // Preparar a instrução SQL
-    $String = "INSERT INTO servico (cod_Servico, nome_cliente, nome_serviço, modelo_moto, observacao, data_servico)
-    VALUES (NULL, '" . $nomeCliente . "', '" . $nomeServico . "', '" . $modeloMoto. "', '" . $observacao . "','" . $dataServico . "')";
+    $String = "INSERT INTO servico (cod_Servico, nome_cliente, nome_serviço, modelo_moto, observacao, data_servico, status_servico)
+    VALUES (NULL, '" . $nomeCliente . "', '" . $nomeServico . "', '" . $modeloMoto. "', '" . $observacao . "','" . $dataServico . "','" . $statusServico . "')";
 
     $result = mysqli_query($conexao, $String);
     if (mysqli_affected_rows($conexao) > 0) {

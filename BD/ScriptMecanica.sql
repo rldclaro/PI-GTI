@@ -78,10 +78,9 @@ create table servico(
     nome_serviço varchar(100) not null,
     modelo_moto varchar(100) not null,
 	observacao varchar (255) null,
-    data_servico date not null
+    data_servico date not null,
+    status_servico varchar(30) not null
 );
-
-
-insert into pessoa values (NULL, "472.931.338-04", "Rildo", "19 99745-2533", "45.368.338-1", "1999.04.10", "admin@gmail.com", "98fbc344e5bba6fbdf48b0af5b084c06eeeafa78");
-insert into pessoa values (NULL, "230.467.968-46", "Beatriz", "19 99416-2442", "38.436.141-9", "2003.05.30", "admin@admin.com", "98fbc344e5bba6fbdf48b0af5b084c06eeeafa78");
+insert into Pessoa values (NULL, "472.931.338-04", "Rildo", "19 99745-2533", "45.368.338-1", "1999.04.10", "admin@gmail.com", "98fbc344e5bba6fbdf48b0af5b084c06eeeafa78");
+insert into pessoa values (NULL, "230.467.968-46", "Administrador", "19 99416-2442", "38.436.141-9", "2003.05.30", "admin@admin.com", "98fbc344e5bba6fbdf48b0af5b084c06eeeafa78");
 
