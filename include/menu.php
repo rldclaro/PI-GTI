@@ -9,7 +9,7 @@
         <div class="navbar-nav ms-auto p-4 p-lg-0">
             <a href="index.php" class="nav-item nav-link">Início</a>
             <a href="sobre.php" class="nav-item nav-link">Sobre</a>
-            <a href="service.php" class="nav-item nav-link">Serviços Realizados</a>            
+            <a href="service.php" class="nav-item nav-link">Montadoras Suportadas</a>            
             <a href="contact.php" class="nav-item nav-link">Contatos</a>
             <a href="Login.php" class="nav-item nav-link">Login</a>
         </div>

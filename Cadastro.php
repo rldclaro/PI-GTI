@@ -108,6 +108,70 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <!-- jQuery (necessário para Inputmask) -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Inputmask e seus plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        // Aplicar máscara de CPF
+        $('#txtCpf').inputmask('999.999.999-99');
+
+        // Aplicar máscara de Telefone
+        $('#txtTelefone').inputmask('(99) 99999-9999');
+
+        // Aplicar máscara de RG
+        $('#txtRG').inputmask('99.999.999-9');
+
+        // Aplicar máscara de Data de Nascimento
+        $('#txtData').inputmask('99/99/9999');
+    });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#cadastro').submit(function(event) {
+                // Validar CPF
+                if (!validarCPF($('#txtCpf').val())) {
+                    alert('CPF inválido');
+                    event.preventDefault();
+                    return;
+                }
+            });
+
+            function validarCPF(cpf) {
+                cpf = cpf.replace(/[^\d]+/g, ''); // Remover caracteres não numéricos
+
+                if (cpf.length != 11 || /^(.)\1+$/.test(cpf)) {
+                    return false;
+                }
+
+                for (let i = 0, sum = 0; i < 9; i++) {
+                    sum += parseInt(cpf.charAt(i)) * (10 - i);
+                }
+
+                let rest = sum % 11;
+                let digit = rest < 2 ? 0 : 11 - rest;
+
+                if (parseInt(cpf.charAt(9)) != digit) {
+                    return false;
+                }
+
+                for (let i = 0, sum = 0; i < 10; i++) {
+                    sum += parseInt(cpf.charAt(i)) * (11 - i);
+                }
+
+                rest = sum % 11;
+                digit = rest < 2 ? 0 : 11 - rest;
+
+                return parseInt(cpf.charAt(10)) == digit;
+            }
+
+        });
+    </script>
+
 </body>
 
 </html>

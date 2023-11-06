@@ -108,6 +108,21 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- jQuery (necessário para Inputmask) -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Inputmask e seus plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        // Aplicar máscara de CNPJ
+        $('#cnpj').inputmask('99.999.999/9999-99');
+
+        // Aplicar máscara de IE (Exemplo para São Paulo)
+        $('#ie').inputmask('999.999.999.999');
+    });
+    </script>
+
 </body>
 
 </html>

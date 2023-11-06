@@ -17,6 +17,7 @@
                 <th>Modelo da moto</th>
                 <th>Nome do Serviço</th>
                 <th>Data do Serviço</th>
+                <th>Status do Serviço</th>
                 <th>Mais Informações</th>
                 <th>Finalizar Serviço</th>
             </tr>
@@ -29,6 +30,7 @@
                     <td><?= $registro['modelo_moto']; ?></td>
                     <td><?= $registro['nome_serviço']; ?></td>
                     <td><?= formatarData($registro['data_servico']); ?></td>
+                    <td><?= $registro['status_servico']; ?></td>
                     <td>
                       <a href="" class="btn btn-success btn-sm rounded-0 open-edit-modal" role="button" data-toggle="modal" data-target="#editarModal" 
                       data-id="<?= $registro['cod_Servico']; ?>" 
@@ -37,6 +39,7 @@
                       data-modelo_fantasia="<?= $registro['modelo_moto']; ?>"
                       data-ob="<?= $registro['observacao']; ?>"
                       data-data="<?= $registro['data_servico']; ?>"
+                      data-status="<?= $registro['status_servico']; ?>"
                       >
 
                         <i class="fa fa-edit"></i>
@@ -86,6 +89,13 @@
                 <label for="dataServico">Data do Serviço:</label>
                 <input type="date" class="form-control" id="dataServico" name="dataServico" required>
             </div>
+            <div class="form-group">
+              <label for="statusServico">Status do Serviço:</label>
+              <select class="form-control" id="statusServico" name="statusServico" required>
+                  <option value="Aberto">Serviço Aberto</option>
+                  <option value="Fechado">Serviço Fechado</option>
+              </select>
+          </div>        
             <button type="submit" id="button" style=" border-radius: 15px; padding: 5.5px 52px;" class="btn btn-primary" >Enviar</button>
           </div>
         </form>
