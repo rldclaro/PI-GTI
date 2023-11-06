@@ -14,12 +14,12 @@
             <tr>
                 <th>ID</th>
                 <th>Nome do Cliente</th>
-                <th>Modelo da moto</th>
+                <th>Modelo da Moto</th>
                 <th>Nome do Serviço</th>
                 <th>Data do Serviço</th>
                 <th>Status do Serviço</th>
                 <th>Mais Informações</th>
-                <th>Finalizar Serviço</th>
+                <th>Excluir Serviço</th>
             </tr>
         </thead>
         <tbody>
@@ -109,7 +109,7 @@
     <div class="modal-content">
       <!-- Cabeçalho da Modal -->
       <div class="modal-header">
-        <h4 class="modal-title">Deseja Finalizar o serviço?</h4>
+        <h4 class="modal-title">Deseja excluir o serviço?</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -128,7 +128,7 @@
                 <input type="text" class="form-control" id="nomeCliente" name="nomeCliente" placeholder="Digite o nome fantasia" readonly>
               </div>
             </div>
-            <button type="submit" style=" border-radius: 15px;" class="btn btn-warning">Sim, finalizar</button>
+            <button type="submit" style=" border-radius: 15px;" class="btn btn-warning">Sim, excluir.</button>
             <!-- <button type="button" class="close" style=" border-radius: 15px; margin-left: 160px;" class="btn btn-info">Não, Cancelar</button> -->
           </div>
         </form>
