@@ -5,7 +5,7 @@
       <div class="card-body" align="center">
     <br>
         <h5 class="card-title" >YAMAHA</h5>
-        <a href="#" class="btn btn-primary" style="border-radius: 100px;">Visualizar Manutenções</a>
+        
       </div>
     </div>
     <div class="card">
@@ -14,7 +14,7 @@
       <div class="card-body" align="center">
     <br><br>
         <h5 class="card-title" >HONDA</h5>
-        <a href="#" class="btn btn-primary" style="border-radius: 100px;">Visualizar Manutenções</a>
+        
       </div>
     </div>
     <div class="card">
@@ -22,7 +22,7 @@
       <div class="card-body" align="center">
       <br><br>
         <h5 class="card-title" >KAWASAKI</h5>
-        <a href="#" class="btn btn-primary" style="border-radius: 100px;">Visualizar Manutenções</a>
+        
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@
       <div class="card-body" align="center">
       <br><br>
         <h5 class="card-title" >SUZUKI</h5>
-        <a href="#" class="btn btn-primary" style="border-radius: 100px;">Visualizar Manutenções</a>
+        
       </div>
     </div>
     <div class="card">
@@ -41,7 +41,7 @@
       <div class="card-body" align="center">
       <br><br>
         <h5 class="card-title" >BMW</h5>
-        <a href="#" class="btn btn-primary" style="border-radius: 100px;">Visualizar Manutenções</a>
+        
       </div>
     </div>
     <div class="card">
@@ -50,7 +50,7 @@
       <div class="card-body" align="center">
       <br><br>
         <h5 class="card-title" >DAFRA</h5>
-        <a href="#" class="btn btn-primary" style="border-radius: 100px;">Visualizar Manutenções</a>
+        
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@
       <div class="card-body" align="center">
       <br><br><br>
         <h5 class="card-title" >TRIUMPH</h5>
-        <a href="#" class="btn btn-primary" style="border-radius: 100px;">Visualizar Manutenções</a>
+        
       </div>
     </div>
     <div class="card">
@@ -71,7 +71,7 @@
       <div class="card-body" align="center">
       <br><br><br>
         <h5 class="card-title" >Harley-Davidson</h5>
-        <a href="#" class="btn btn-primary" style="border-radius: 100px;">Visualizar Manutenções</a>
+        
       </div>
     </div>
     <div class="card">
@@ -80,7 +80,7 @@
       <div class="card-body" align="center">
       <br><br>
         <h5 class="card-title" >KTM</h5>
-        <a href="#" class="btn btn-primary" style="border-radius: 100px;">Visualizar Manutenções</a>
+        
       </div>
     </div>
   </div>

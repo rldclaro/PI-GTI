@@ -1,5 +1,5 @@
 <!-- Formulário de Cadastro Pessoa Fisica -->
-<form id="FrmPessoaFisica" name="cadastro" onsubmit="return validaPessoaFisica()" action="MySQL/insertCad.php" method="POST" autocomplete="off">
+<form id="cadastro" name="cadastro" action="MySQL/insertCad.php" method="POST" autocomplete="off">
 <div class="container">    
     <div class="form-row">
             <div class="form-group col-sm-6">
