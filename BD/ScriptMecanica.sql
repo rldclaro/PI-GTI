@@ -3,7 +3,7 @@ drop database mecanica;
 create database mecanica character set UTF8;
 use mecanica;
 
-create table Pessoa(
+create table pessoa(
 	cod_Pessoa int(5) not null primary key auto_increment,
     cpf_Pessoa varchar(15) not null,
     nome_Pessoa varchar(100) not null,
@@ -14,7 +14,7 @@ create table Pessoa(
 	senha varchar(255)not null
 );
 
-create table Cliente(
+create table cliente(
 	cod_Cliente int(5) not null primary key auto_increment,
     nomeCliente varchar(100) not null,
     marca varchar(100) not null,
@@ -26,7 +26,7 @@ create table Cliente(
     foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
 );
 
-create table Fornecedor(
+create table fornecedor(
 	cod_Fornecedor int(5) not null primary key auto_increment,
     razao_SocialFornecedor varchar(100) not null,
     cnpj varchar(14) not null,
@@ -39,7 +39,7 @@ create table Fornecedor(
     foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
 );
 
-create table Empresa(
+create table empresa(
 	cod_Empresa int(5) not null primary key auto_increment,
 	CNPJ varchar(14) not null,
     razao_Social varchar(100) not null,
@@ -50,7 +50,7 @@ create table Empresa(
     foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
 );
 
-create table Funcionario(
+create table funcionario(
 	cod_Funcionario int(5) not null primary key auto_increment,
     login_Funcionario varchar(150) not null,
     senha_Funcionario varchar(150) not null,
@@ -61,7 +61,7 @@ create table Funcionario(
     foreign key (cod_ReferenciaPessoa) references Pessoa(cod_Pessoa)
 );
 
-create table Produto(
+create table produto(
 	cod_Produto int(5) not null primary key auto_increment,
     nome_Produto varchar(100) not null,
     qtd_produto int(3) not null,
@@ -82,4 +82,6 @@ create table servico(
 );
 
 
-insert into Pessoa values (NULL, "472.931.338-04", "Rildo", "19 99745-2533", "45.368.338-1", "1999.04.10", "admin@gmail.com", "98fbc344e5bba6fbdf48b0af5b084c06eeeafa78")
+insert into pessoa values (NULL, "472.931.338-04", "Rildo", "19 99745-2533", "45.368.338-1", "1999.04.10", "admin@gmail.com", "98fbc344e5bba6fbdf48b0af5b084c06eeeafa78");
+insert into pessoa values (NULL, "230.467.968-46", "Beatriz", "19 99416-2442", "38.436.141-9", "2003.05.30", "admin@admin.com", "98fbc344e5bba6fbdf48b0af5b084c06eeeafa78");
+

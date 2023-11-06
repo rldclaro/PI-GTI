@@ -3,16 +3,16 @@
     session_start();
     require_once "MySQL/conexao.php";
 
-    $Cliente = "SELECT * from Cliente";
+    $Cliente = "SELECT * from cliente";
     $result_cliente = mysqli_query($conexao, $Cliente);
 
-    $Pecas = "SELECT * from Produto";
+    $Pecas = "SELECT * from produto";
     $result_pecas = mysqli_query($conexao, $Pecas);
 
-    $modelo = "SELECT * from Cliente";
+    $modelo = "SELECT * from cliente";
     $result_modelo = mysqli_query($conexao, $modelo);
 
-    $Cliente = "SELECT * from Cliente";
+    $Cliente = "SELECT * from cliente";
     $result_cliente = mysqli_query($conexao, $Cliente);
 
 ?>

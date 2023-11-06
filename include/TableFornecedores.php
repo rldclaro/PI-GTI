@@ -1,6 +1,6 @@
 <?php
   
-  $String = "SELECT * from Fornecedor";
+  $String = "SELECT * from fornecedor";
   $result = mysqli_query($conexao, $String);
   // Função para formatar a data no formato desejado
   function formatarData($data) {

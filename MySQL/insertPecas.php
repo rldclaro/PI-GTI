@@ -13,7 +13,7 @@ if(isset($_SESSION['id'])){
     $categoria = $_REQUEST["categoria_Produto"]; 
 
     // Preparar a instrução SQL
-    $String = "INSERT INTO Produto (cod_Produto, nome_Produto, qtd_produto, tipoProduto, categoria, cod_ReferenciaPessoa, data_Cadastro)
+    $String = "INSERT INTO produto (cod_Produto, nome_Produto, qtd_produto, tipoProduto, categoria, cod_ReferenciaPessoa, data_Cadastro)
     VALUES (NULL, '" . $nomePeca . "', '" . $quantidade . "', '" . $tipoPeca. "', '" . $categoria . "', '$idLogado', CURRENT_TIMESTAMP)";
 
     $result = mysqli_query($conexao, $String);

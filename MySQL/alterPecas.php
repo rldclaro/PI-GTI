@@ -12,7 +12,7 @@
     $quantidade = $_REQUEST["quantidade_Produto"];
 
     // Preparar a instrução SQL
-    $String = "UPDATE Produto SET 
+    $String = "UPDATE produto SET 
         nome_Produto = '" . $nome . "', 
         qtd_produto = '" . $quantidade . "', 
         tipoProduto = '" . $tipo . "', 

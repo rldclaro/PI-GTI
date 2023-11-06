@@ -5,7 +5,7 @@
         $idFornecedor = $_REQUEST['idFornecedor'];
         if(isset($_SESSION['id'])){
             
-            $String = "DELETE FROM Fornecedor WHERE cod_Fornecedor = " . $idFornecedor;
+            $String = "DELETE FROM fornecedor WHERE cod_Fornecedor = " . $idFornecedor;
 
             $result = mysqli_query($conexao, $String);
             if (mysqli_affected_rows($conexao) > 0) {

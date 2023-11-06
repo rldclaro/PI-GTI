@@ -5,7 +5,7 @@
         $idProduto = $_REQUEST['idProduto'];
         if(isset($_SESSION['id'])){
             
-            $String = "DELETE FROM Produto WHERE cod_Produto = " . $idProduto;
+            $String = "DELETE FROM produto WHERE cod_Produto = " . $idProduto;
 
             $result = mysqli_query($conexao, $String);
             if (mysqli_affected_rows($conexao) > 0) {

@@ -2,7 +2,7 @@
     //Instancia do Banco de dados
     session_start();
     require_once "MySQL/conexao.php";
-    $String = "SELECT * from Pessoa";
+    $String = "SELECT * from pessoa";
     $result = mysqli_query($conexao, $String);
 ?>
 <!DOCTYPE html>

@@ -15,7 +15,7 @@ if(isset($_SESSION['id'])){
     $cor = $_REQUEST["txtCor"]; 
 
     // Preparar a instrução SQL
-    $String = "INSERT INTO Cliente (cod_Cliente, nomeCliente, marca, modelo, ano, placa, cor, cod_ReferenciaPessoa)
+    $String = "INSERT INTO cliente (cod_Cliente, nomeCliente, marca, modelo, ano, placa, cor, cod_ReferenciaPessoa)
     VALUES (NULL, '" . $nomeCliente . "', '" . $marca . "', '" . $modelo. "', '" . $ano . "','" . $placa . "','" . $cor . "', '$idLogado')";
 
     $result = mysqli_query($conexao, $String);
