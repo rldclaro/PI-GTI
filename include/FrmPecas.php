@@ -29,6 +29,7 @@
                 <option value="Pneu">Pneu</option>
                 <option value="Freios">Freios</option>
                 <option value="Acessorios">Acessorios</option>
+                <option value="Geral">Geral</option>
             </select>
             </div>
             <div class="form-group col-sm-12">
