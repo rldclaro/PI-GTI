@@ -16,10 +16,7 @@
                 <small>+55 19 99745-2533</small>
             </div>
             <div class="h-100 d-inline-flex align-items-center">
-                <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-sm-square bg-white text-primary me-0" href="https://instagram.com/alexmotospreparacoes?igshid=YzAwZjE1ZTI0Zg=="><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </div>

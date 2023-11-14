@@ -7,7 +7,6 @@
                     <div class="ps-4">
                         <h5 class="mb-3">Qualidade do Serviço</h5>
                         <p>Praticidade e resistência fazendo a diferença para você.</p>
-                        <a class="text-secondary border-bottom" href="">Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -17,7 +16,6 @@
                     <div class="ps-4">
                         <h5 class="mb-3">Trabalhadores Experientes</h5>
                         <p>Colaboradores treinados e ágeis para a melhor experiência.</p>
-                        <a class="text-secondary border-bottom" href="">Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -27,7 +25,6 @@
                     <div class="ps-4">
                         <h5 class="mb-3">Equipamentos Modernos</h5>
                         <p>Com o foco no futuro, tecnologia de ultima geração e melhoria continua.</p>
-                        <a class="text-secondary border-bottom" href="">Saiba Mais</a>
                     </div>
                 </div>
             </div>

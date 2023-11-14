@@ -99,7 +99,7 @@
                     <label for="txtCategoria">Categoria</label>
                     <select id="txtCategoria" name="txtCategoria" class="form-control" required>
                     <option value="">Selecione</option>
-                        <option value="motor">Motor</option>
+                       <option value="motor">Motor</option>
                         <option value="injecaoEletronica">Injeção Eletronica</option>
                         <option value="carenagem">Carenagem</option>
                         <option value="pneu">Pneu</option>

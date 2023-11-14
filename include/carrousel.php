@@ -9,7 +9,6 @@
                             <div class="col-10 col-lg-7 text-center text-lg-start">
                                 <h6 class="text-white text-uppercase mb-3 animated slideInDown">Manutenções em Geral</h6>
                                 <h2 class="display-3 text-white mb-2 pb-2 animated slideInDown">Qualidade em Manutenções <br>Tecnologia em scaner</h2>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Mais Informações<i class="fa fa-arrow-right ms-3"></i></a>
                             </div>
                             <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                                 <img class="img-fluid" src="img/speed.png" alt="">
@@ -26,7 +25,6 @@
                             <div class="col-10 col-lg-7 text-center text-lg-start">
                                 <h6 class="text-white text-uppercase mb-3 animated slideInDown">Revisões Gerais</h6>
                                 <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Revisão Básica <br> Revisão Média <br> Revisão Completa</h1>
-                                <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Mais Informações<i class="fa fa-arrow-right ms-3"></i></a>
                             </div>
                             <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
                                 <img class="img-fluid" src="img/titan.png" alt="">
