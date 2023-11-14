@@ -6,12 +6,6 @@
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rua: Estrela guia, N° 282, Hortolândia-SP</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+55 19 99745-2533</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>rivimotos@outlook.com</p>
-                <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Horário de Abertura</h4>
@@ -22,7 +16,7 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Serviços</h4>
-                <a class="btn btn-link" href="">Testes de Diagnóstico</a>
+                <a class="btn btn-link" href="">Diagnóstico de Testes</a>
                 <a class="btn btn-link" href="">Revisões</a>
                 <a class="btn btn-link" href="">Montadoras Suportadas</a>
                 <a class="btn btn-link" href="">Tipos de Óleo</a>

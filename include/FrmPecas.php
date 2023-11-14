@@ -24,11 +24,12 @@
             <option value="">Selecione</option>
                 <option value="Motor">Motor</option>
                 <option value="Injeção Eletronica">Injeção Eletronica</option>
-                <option value="Carenagem">Carburação</option>
+                <option value="Carburação">Carburação</option>
                 <option value="Carenagem">Carenagem</option>
                 <option value="Pneu">Pneu</option>
                 <option value="Freios">Freios</option>
                 <option value="Acessorios">Acessorios</option>
+                <option value="Geral">Geral</option>
             </select>
             </div>
             <div class="form-group col-sm-12">

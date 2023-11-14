@@ -35,12 +35,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">4 Anos de Experiência</h3>
-                                    <p class="mb-4">Embora ainda novos no mercado </p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Qualidade nos Serviços</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Trabalhadores Experientes</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Equipamentos Modernos</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Saiba Mais<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <h3 class="mb-3">Dianóstico Teste</h3>
+                                    <p class="mb-4"> </p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Fazemos a análise da moto</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Testamos todos os possíveis erros</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Teste via scanner</p>
                                 </div>
                             </div>
                         </div>
@@ -53,12 +52,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                   <h3 class="mb-3">4 Anos de Experiência</h3>
-                                    <p class="mb-4">Embora ainda novos no mercado </p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Qualidade nos Serviços</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Trabalhadores Experientes</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Equipamentos Modernos</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Saiba Mais<i class="fa fa-arrow-right ms-3"></i></a>
+                                   <h3 class="mb-3">Serviços Mecânicos</h3>
+                                    <p class="mb-4"> </p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Atuação mecânica</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Equipamentos de qualidade</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Serviços ágeis</p>
                                 </div>
                             </div>
                         </div>
@@ -71,12 +69,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">4 Anos de Experiência</h3>
-                                    <p class="mb-4">Embora ainda novos no mercado </p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Qualidade nos Serviços</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Trabalhadores Experientes</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Equipamentos Modernos</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Saiba Mais<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <h3 class="mb-3">Substituição de Pneus</h3>
+                                    <p class="mb-4"> </p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Utilizamos pneus de qualidade</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Fazemos trocas rápidas</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Reciclamos seu pneu, através da logistica reversa</p>
                                 </div>
                             </div>
                         </div>
@@ -89,12 +86,11 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h3 class="mb-3">4 Anos de Experiência</h3>
-                                    <p class="mb-4">Embora ainda novos no mercado </p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Qualidade nos Serviços</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Trabalhadores Experientes</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Equipamentos Modernos</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Saiba Mais<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <h3 class="mb-3">Troca de Óleo</h3>
+                                    <p class="mb-4"> </p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Usamos óleo de boa procedência</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Vasta gama de opções</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Execução eficiente</p>
                                 </div>
                             </div>
                         </div>

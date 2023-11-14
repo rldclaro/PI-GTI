@@ -12,7 +12,7 @@
             </div>
             <div class="col-lg-6">
                 <h6 class="text-primary text-uppercase">Sobre Nós</h6>
-                <h3 class="mb-4"><span class="text-primary">Alex Preparações</span> é uma oficina familiar buscando sempre a inovação de acordo com o mercado atual.</h3>
+                <h3 class="mb-4"><span class="text-primary">Conheça sobre nossos serviços</span></h3>
                 <p class="mb-4"> Oficina conta com as melhores tecnologias do mercado incluindo: Reprogramação de centrais, correção de erros etc...</p>
                 <div class="row g-4 mb-3 pb-3">
                     <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
@@ -21,8 +21,8 @@
                                 <span class="fw-bold text-secondary">01</span>
                             </div>
                             <div class="ps-3">
-                                <h6>Correção de Falhas</h6>
-                                <span>Correção de falhas na injeção eletrônica</span>
+                                <h6>Manutenção Básica</h6>
+                                <span>Troca de óleo, verificação da iluminação de todas as lampadas</span>
                             </div>
                         </div>
                     </div>
@@ -32,8 +32,8 @@
                                 <span class="fw-bold text-secondary">02</span>
                             </div>
                             <div class="ps-3">
-                                <h6>Reprogramação de Centrais</h6>
-                                <span>Reprogramação de centrais para melhorar fluxo de combustível</span>
+                                <h6>Manutenção Média</h6>
+                                <span>Manutenção básica mais a revisão nos freios e balanceamento de rodas.</span>
                             </div>
                         </div>
                     </div>
@@ -43,13 +43,12 @@
                                 <span class="fw-bold text-secondary">03</span>
                             </div>
                             <div class="ps-3">
-                                <h6>Remap</h6>
-                                <span>Remapeamento de motos trazendo performance</span>
+                                <h6>Manutenção Completa</h6>
+                                <span>Manutenção média mais a desmontagem de peças, rolamento, lubrificação completa da moto.</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a href="" class="btn btn-primary py-3 px-5">Quer saber mais? Clique aqui!<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </div>
     </div>
