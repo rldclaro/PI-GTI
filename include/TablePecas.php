@@ -99,13 +99,12 @@
                     <label for="txtCategoria">Categoria</label>
                     <select id="txtCategoria" name="txtCategoria" class="form-control" required>
                     <option value="">Selecione</option>
-                        <option value="Motor">Motor</option>
-                        <option value="Injeção Eletronica">Injeção Eletronica</option>
-                        <option value="Carburação">Carburação</option>
-                        <option value="Carenagem">Carenagem</option>
-                        <option value="Pneu">Pneu</option>
-                        <option value="Freios">Freios</option>
-                        <option value="Acessorios">Acessorios</option>
+                       <option value="motor">Motor</option>
+                        <option value="injecaoEletronica">Injeção Eletronica</option>
+                        <option value="carenagem">Carenagem</option>
+                        <option value="pneu">Pneu</option>
+                        <option value="freios">Freios</option>
+                        <option value="acessoros">Acessorios</option>
                         <option value="Geral">Geral</option>
                     </select>
                     </div>
